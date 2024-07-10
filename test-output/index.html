@@ -1,0 +1,769 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.6.0.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-SpiceJet_Test" class="navigator-link">
+              <span class="suite-name border-passed">SpiceJet Test</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-SpiceJet_Test" class="navigator-link ">
+                    <span>C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-SpiceJet_Test" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-SpiceJet_Test" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-SpiceJet_Test" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-SpiceJet_Test" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-SpiceJet_Test" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-SpiceJet_Test" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">14 methods,   14 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-SpiceJet_Test" class="hide-methods passed suite-SpiceJet_Test"> (hide)</a> <!-- hide-methods passed suite-SpiceJet_Test -->
+                      <a href="#" panel-name="suite-SpiceJet_Test" class="show-methods passed suite-SpiceJet_Test"> (show)</a> <!-- show-methods passed suite-SpiceJet_Test -->
+                    </span>
+                    <div class="method-list-content passed suite-SpiceJet_Test">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpiceJet_Test" title="CommonRunner.LoginTest" class="method navigator-link" hash-for-method="emptyFieldsLoginScenario">emptyFieldsLoginScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpiceJet_Test" title="CommonRunner.SignupTest" class="method navigator-link" hash-for-method="emptyFieldsSignupScenario">emptyFieldsSignupScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpiceJet_Test" title="CommonRunner.LoginTest" class="method navigator-link" hash-for-method="invalidEmailLoginScenario">invalidEmailLoginScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpiceJet_Test" title="CommonRunner.SignupTest" class="method navigator-link" hash-for-method="invalidEmailSignupScenario">invalidEmailSignupScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpiceJet_Test" title="CommonRunner.LoginTest" class="method navigator-link" hash-for-method="invalidPasswordLoginScenario">invalidPasswordLoginScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpiceJet_Test" title="CommonRunner.SignupTest" class="method navigator-link" hash-for-method="mismatchedPasswordSignupScenario">mismatchedPasswordSignupScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpiceJet_Test" title="CommonRunner.OneWayBookingTest" class="method navigator-link" hash-for-method="negativeOneWayBookingScenario">negativeOneWayBookingScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpiceJet_Test" title="CommonRunner.RoundTripBookingTest" class="method navigator-link" hash-for-method="negativeRoundTripBookingScenario">negativeRoundTripBookingScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpiceJet_Test" title="CommonRunner.LoginTest" class="method navigator-link" hash-for-method="positiveLoginScenario">positiveLoginScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpiceJet_Test" title="CommonRunner.OneWayBookingTest" class="method navigator-link" hash-for-method="positiveOneWayBookingScenario">positiveOneWayBookingScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpiceJet_Test" title="CommonRunner.RoundTripBookingTest" class="method navigator-link" hash-for-method="positiveRoundTripBookingScenario">positiveRoundTripBookingScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpiceJet_Test" title="CommonRunner.SignupTest" class="method navigator-link" hash-for-method="positiveSignupScenario">positiveSignupScenario</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpiceJet_Test" title="CommonRunner.PaymentProcessTest" class="method navigator-link" hash-for-method="testPaymentProcess">testPaymentProcess</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-SpiceJet_Test" title="CommonRunner.ValidateProcessTest" class="method navigator-link" hash-for-method="validateBookingPage">validateBookingPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-SpiceJet_Test -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-SpiceJet_Test" class="panel SpiceJet_Test">
+          <div class="suite-SpiceJet_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CommonRunner.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyFieldsLoginScenario">
+                  </a> <!-- emptyFieldsLoginScenario -->
+                  <span class="method-name">emptyFieldsLoginScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidEmailLoginScenario">
+                  </a> <!-- invalidEmailLoginScenario -->
+                  <span class="method-name">invalidEmailLoginScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidPasswordLoginScenario">
+                  </a> <!-- invalidPasswordLoginScenario -->
+                  <span class="method-name">invalidPasswordLoginScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveLoginScenario">
+                  </a> <!-- positiveLoginScenario -->
+                  <span class="method-name">positiveLoginScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SpiceJet_Test-class-passed -->
+          <div class="suite-SpiceJet_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CommonRunner.ValidateProcessTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="validateBookingPage">
+                  </a> <!-- validateBookingPage -->
+                  <span class="method-name">validateBookingPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SpiceJet_Test-class-passed -->
+          <div class="suite-SpiceJet_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CommonRunner.OneWayBookingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeOneWayBookingScenario">
+                  </a> <!-- negativeOneWayBookingScenario -->
+                  <span class="method-name">negativeOneWayBookingScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveOneWayBookingScenario">
+                  </a> <!-- positiveOneWayBookingScenario -->
+                  <span class="method-name">positiveOneWayBookingScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SpiceJet_Test-class-passed -->
+          <div class="suite-SpiceJet_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CommonRunner.SignupTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="emptyFieldsSignupScenario">
+                  </a> <!-- emptyFieldsSignupScenario -->
+                  <span class="method-name">emptyFieldsSignupScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="invalidEmailSignupScenario">
+                  </a> <!-- invalidEmailSignupScenario -->
+                  <span class="method-name">invalidEmailSignupScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="mismatchedPasswordSignupScenario">
+                  </a> <!-- mismatchedPasswordSignupScenario -->
+                  <span class="method-name">mismatchedPasswordSignupScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveSignupScenario">
+                  </a> <!-- positiveSignupScenario -->
+                  <span class="method-name">positiveSignupScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SpiceJet_Test-class-passed -->
+          <div class="suite-SpiceJet_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CommonRunner.RoundTripBookingTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="negativeRoundTripBookingScenario">
+                  </a> <!-- negativeRoundTripBookingScenario -->
+                  <span class="method-name">negativeRoundTripBookingScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="positiveRoundTripBookingScenario">
+                  </a> <!-- positiveRoundTripBookingScenario -->
+                  <span class="method-name">positiveRoundTripBookingScenario</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SpiceJet_Test-class-passed -->
+          <div class="suite-SpiceJet_Test-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">CommonRunner.PaymentProcessTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testPaymentProcess">
+                  </a> <!-- testPaymentProcess -->
+                  <span class="method-name">testPaymentProcess</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-SpiceJet_Test-class-passed -->
+        </div> <!-- panel SpiceJet_Test -->
+        <div panel-name="test-xml-SpiceJet_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;SpiceJet Test&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;Listerners.MyListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Chrome Test&quot;&gt;
+    &lt;parameter name=&quot;browser&quot; value=&quot;Chrome&quot;/&gt;
+    &lt;parameter name=&quot;url&quot; value=&quot;https://www.spicejet.com/&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;CommonRunner.SignupTest&quot;/&gt;
+      &lt;class name=&quot;CommonRunner.LoginTest&quot;/&gt;
+      &lt;class name=&quot;CommonRunner.OneWayBookingTest&quot;/&gt;
+      &lt;class name=&quot;CommonRunner.RoundTripBookingTest&quot;/&gt;
+      &lt;class name=&quot;CommonRunner.ValidateProcessTest&quot;/&gt;
+      &lt;class name=&quot;CommonRunner.PaymentProcessTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Chrome Test --&gt;
+&lt;/suite&gt; &lt;!-- SpiceJet Test --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-SpiceJet_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for SpiceJet Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Chrome Test (6 classes)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-SpiceJet_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for SpiceJet Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-SpiceJet_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for SpiceJet Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_SpiceJet_Test');
+function tableData_SpiceJet_Test() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(14);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testPaymentProcess')
+data.setCell(0, 2, 'CommonRunner.PaymentProcessTest')
+data.setCell(0, 3, 70773);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'positiveOneWayBookingScenario')
+data.setCell(1, 2, 'CommonRunner.OneWayBookingTest')
+data.setCell(1, 3, 50059);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'positiveRoundTripBookingScenario')
+data.setCell(2, 2, 'CommonRunner.RoundTripBookingTest')
+data.setCell(2, 3, 41884);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'positiveSignupScenario')
+data.setCell(3, 2, 'CommonRunner.SignupTest')
+data.setCell(3, 3, 17762);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'negativeOneWayBookingScenario')
+data.setCell(4, 2, 'CommonRunner.OneWayBookingTest')
+data.setCell(4, 3, 13582);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'mismatchedPasswordSignupScenario')
+data.setCell(5, 2, 'CommonRunner.SignupTest')
+data.setCell(5, 3, 7369);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'invalidEmailSignupScenario')
+data.setCell(6, 2, 'CommonRunner.SignupTest')
+data.setCell(6, 3, 6923);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'emptyFieldsSignupScenario')
+data.setCell(7, 2, 'CommonRunner.SignupTest')
+data.setCell(7, 3, 5007);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'positiveLoginScenario')
+data.setCell(8, 2, 'CommonRunner.LoginTest')
+data.setCell(8, 3, 1988);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'invalidEmailLoginScenario')
+data.setCell(9, 2, 'CommonRunner.LoginTest')
+data.setCell(9, 3, 1788);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'invalidPasswordLoginScenario')
+data.setCell(10, 2, 'CommonRunner.LoginTest')
+data.setCell(10, 3, 1767);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'negativeRoundTripBookingScenario')
+data.setCell(11, 2, 'CommonRunner.RoundTripBookingTest')
+data.setCell(11, 3, 1750);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'emptyFieldsLoginScenario')
+data.setCell(12, 2, 'CommonRunner.LoginTest')
+data.setCell(12, 3, 1445);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'validateBookingPage')
+data.setCell(13, 2, 'CommonRunner.ValidateProcessTest')
+data.setCell(13, 3, 1102);
+window.suiteTableData['SpiceJet_Test']= { tableData: data, tableDiv: 'times-div-SpiceJet_Test'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 3 minutes</span>
+              <div id="times-div-SpiceJet_Test">
+              </div> <!-- times-div-SpiceJet_Test -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-SpiceJet_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for SpiceJet Test</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">positiveOneWayBookingScenario</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\positiveOneWayBookingScenario.png width = 200px height=200px /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">invalidEmailLoginScenario</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\invalidEmailLoginScenario.png width = 200px height=200px /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">negativeRoundTripBookingScenario</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\negativeRoundTripBookingScenario.png width = 200px height=200px /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">testPaymentProcess</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\testPaymentProcess.png width = 200px height=200px /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">mismatchedPasswordSignupScenario</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\mismatchedPasswordSignupScenario.png width = 200px height=200px /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">positiveRoundTripBookingScenario</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\positiveRoundTripBookingScenario.png width = 200px height=200px /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">emptyFieldsLoginScenario</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\emptyFieldsLoginScenario.png width = 200px height=200px /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">negativeOneWayBookingScenario</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\negativeOneWayBookingScenario.png width = 200px height=200px /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">positiveLoginScenario</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\positiveLoginScenario.png width = 200px height=200px /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">validateBookingPage</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\validateBookingPage.png width = 200px height=200px /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">invalidEmailSignupScenario</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\invalidEmailSignupScenario.png width = 200px height=200px /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">invalidPasswordLoginScenario</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\invalidPasswordLoginScenario.png width = 200px height=200px /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">emptyFieldsSignupScenario</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\emptyFieldsSignupScenario.png width = 200px height=200px /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">positiveSignupScenario</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output"><img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\positiveSignupScenario.png width = 200px height=200px /></span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-SpiceJet_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">15 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">CommonRunner.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">urlVerify</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">CommonRunner.ValidateProcessTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">urlVerify</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">CommonRunner.OneWayBookingTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">urlVerify</span>
+                <br/>
+                <span class="ignored-method-name">quit</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">CommonRunner.RoundTripBookingTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">urlVerify</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">CommonRunner.PaymentProcessTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">quit</span>
+                <br/>
+                <span class="ignored-method-name">setUp</span>
+                <br/>
+                <span class="ignored-method-name">urlVerify</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-SpiceJet_Test" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommonRunner.SignupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setUp(Chrome, https://www.spicejet.com/)</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-test before">
+                <span class="method-name">urlVerify</span>
+                <span class="method-start">24215 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">positiveSignupScenario</span>
+                <span class="method-start">24805 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refreshAfterEachTest</span>
+                <span class="method-start">43199 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">invalidEmailSignupScenario</span>
+                <span class="method-start">49265 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refreshAfterEachTest</span>
+                <span class="method-start">56769 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">mismatchedPasswordSignupScenario</span>
+                <span class="method-start">60569 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refreshAfterEachTest</span>
+                <span class="method-start">68546 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">emptyFieldsSignupScenario</span>
+                <span class="method-start">72825 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refreshAfterEachTest</span>
+                <span class="method-start">78269 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommonRunner.LoginTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">positiveLoginScenario</span>
+                <span class="method-start">83540 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refreshAfterEachTest</span>
+                <span class="method-start">86016 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">invalidEmailLoginScenario</span>
+                <span class="method-start">92358 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refreshAfterEachTest</span>
+                <span class="method-start">94555 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">invalidPasswordLoginScenario</span>
+                <span class="method-start">99050 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refreshAfterEachTest</span>
+                <span class="method-start">101320 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">emptyFieldsLoginScenario</span>
+                <span class="method-start">106206 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refreshAfterEachTest</span>
+                <span class="method-start">108016 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommonRunner.OneWayBookingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">negativeOneWayBookingScenario</span>
+                <span class="method-start">121138 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refreshAfterEachTest</span>
+                <span class="method-start">135045 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">positiveOneWayBookingScenario</span>
+                <span class="method-start">140238 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refreshAfterEachTest</span>
+                <span class="method-start">190573 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommonRunner.RoundTripBookingTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">negativeRoundTripBookingScenario</span>
+                <span class="method-start">196097 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refreshAfterEachTest</span>
+                <span class="method-start">198352 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="test-method">
+                <span class="method-name">positiveRoundTripBookingScenario</span>
+                <span class="method-start">205609 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refreshAfterEachTest</span>
+                <span class="method-start">247841 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommonRunner.ValidateProcessTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">validateBookingPage</span>
+                <span class="method-start">254199 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refreshAfterEachTest</span>
+                <span class="method-start">255697 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommonRunner.PaymentProcessTest</div> <!-- chronological-class-name -->
+              <div class="test-method">
+                <span class="method-name">testPaymentProcess</span>
+                <span class="method-start">267560 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">refreshAfterEachTest</span>
+                <span class="method-start">338564 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">CommonRunner.SignupTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test after">
+                <span class="method-name">quit</span>
+                <span class="method-start">343774 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

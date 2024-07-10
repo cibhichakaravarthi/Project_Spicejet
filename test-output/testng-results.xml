@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="14" passed="14" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\positiveSignupScenario.png width = 200px height=200px />]]>
+    </line>
+    <line>
+      <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\invalidEmailSignupScenario.png width = 200px height=200px />]]>
+    </line>
+    <line>
+      <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\mismatchedPasswordSignupScenario.png width = 200px height=200px />]]>
+    </line>
+    <line>
+      <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\emptyFieldsSignupScenario.png width = 200px height=200px />]]>
+    </line>
+    <line>
+      <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\positiveLoginScenario.png width = 200px height=200px />]]>
+    </line>
+    <line>
+      <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\invalidEmailLoginScenario.png width = 200px height=200px />]]>
+    </line>
+    <line>
+      <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\invalidPasswordLoginScenario.png width = 200px height=200px />]]>
+    </line>
+    <line>
+      <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\emptyFieldsLoginScenario.png width = 200px height=200px />]]>
+    </line>
+    <line>
+      <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\negativeOneWayBookingScenario.png width = 200px height=200px />]]>
+    </line>
+    <line>
+      <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\positiveOneWayBookingScenario.png width = 200px height=200px />]]>
+    </line>
+    <line>
+      <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\negativeRoundTripBookingScenario.png width = 200px height=200px />]]>
+    </line>
+    <line>
+      <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\positiveRoundTripBookingScenario.png width = 200px height=200px />]]>
+    </line>
+    <line>
+      <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\validateBookingPage.png width = 200px height=200px />]]>
+    </line>
+    <line>
+      <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\testPaymentProcess.png width = 200px height=200px />]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2024-07-10T21:51:13 IST" name="SpiceJet Test" finished-at="2024-07-10T21:56:57 IST" duration-ms="344668">
+    <groups>
+    </groups>
+    <test started-at="2024-07-10T21:51:13 IST" name="Chrome Test" finished-at="2024-07-10T21:56:57 IST" duration-ms="344668">
+      <class name="CommonRunner.SignupTest">
+        <test-method is-config="true" signature="setUp(java.lang.String,java.lang.String)[pri:0, instance:CommonRunner.SignupTest@488d1cd7]" started-at="2024-07-10T21:51:13 IST" name="setUp" finished-at="2024-07-10T21:51:37 IST" duration-ms="24212" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Chrome]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[https://www.spicejet.com/]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method is-config="true" signature="urlVerify()[pri:0, instance:CommonRunner.SignupTest@488d1cd7]" started-at="2024-07-10T21:51:37 IST" name="urlVerify" finished-at="2024-07-10T21:51:38 IST" duration-ms="525" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- urlVerify -->
+        <test-method signature="positiveSignupScenario()[pri:1, instance:CommonRunner.SignupTest@488d1cd7]" started-at="2024-07-10T21:51:38 IST" name="positiveSignupScenario" finished-at="2024-07-10T21:51:55 IST" duration-ms="17762" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\positiveSignupScenario.png width = 200px height=200px />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- positiveSignupScenario -->
+        <test-method is-config="true" signature="refreshAfterEachTest()[pri:0, instance:CommonRunner.SignupTest@488d1cd7]" started-at="2024-07-10T21:51:56 IST" name="refreshAfterEachTest" finished-at="2024-07-10T21:52:02 IST" duration-ms="6063" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshAfterEachTest -->
+        <test-method signature="invalidEmailSignupScenario()[pri:2, instance:CommonRunner.SignupTest@488d1cd7]" started-at="2024-07-10T21:52:02 IST" name="invalidEmailSignupScenario" finished-at="2024-07-10T21:52:09 IST" duration-ms="6923" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\invalidEmailSignupScenario.png width = 200px height=200px />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidEmailSignupScenario -->
+        <test-method is-config="true" signature="refreshAfterEachTest()[pri:0, instance:CommonRunner.SignupTest@488d1cd7]" started-at="2024-07-10T21:52:10 IST" name="refreshAfterEachTest" finished-at="2024-07-10T21:52:13 IST" duration-ms="3800" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshAfterEachTest -->
+        <test-method signature="mismatchedPasswordSignupScenario()[pri:3, instance:CommonRunner.SignupTest@488d1cd7]" started-at="2024-07-10T21:52:13 IST" name="mismatchedPasswordSignupScenario" finished-at="2024-07-10T21:52:21 IST" duration-ms="7369" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\mismatchedPasswordSignupScenario.png width = 200px height=200px />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- mismatchedPasswordSignupScenario -->
+        <test-method is-config="true" signature="refreshAfterEachTest()[pri:0, instance:CommonRunner.SignupTest@488d1cd7]" started-at="2024-07-10T21:52:21 IST" name="refreshAfterEachTest" finished-at="2024-07-10T21:52:26 IST" duration-ms="4278" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshAfterEachTest -->
+        <test-method signature="emptyFieldsSignupScenario()[pri:4, instance:CommonRunner.SignupTest@488d1cd7]" started-at="2024-07-10T21:52:26 IST" name="emptyFieldsSignupScenario" finished-at="2024-07-10T21:52:31 IST" duration-ms="5007" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\emptyFieldsSignupScenario.png width = 200px height=200px />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emptyFieldsSignupScenario -->
+        <test-method is-config="true" signature="refreshAfterEachTest()[pri:0, instance:CommonRunner.SignupTest@488d1cd7]" started-at="2024-07-10T21:52:31 IST" name="refreshAfterEachTest" finished-at="2024-07-10T21:52:36 IST" duration-ms="5270" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshAfterEachTest -->
+        <test-method is-config="true" signature="quit()[pri:0, instance:CommonRunner.SignupTest@488d1cd7]" started-at="2024-07-10T21:56:57 IST" name="quit" finished-at="2024-07-10T21:56:57 IST" duration-ms="875" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quit -->
+      </class> <!-- CommonRunner.SignupTest -->
+      <class name="CommonRunner.PaymentProcessTest">
+        <test-method signature="testPaymentProcess()[pri:14, instance:CommonRunner.PaymentProcessTest@3561c410]" started-at="2024-07-10T21:55:40 IST" name="testPaymentProcess" finished-at="2024-07-10T21:56:51 IST" duration-ms="70773" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\testPaymentProcess.png width = 200px height=200px />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testPaymentProcess -->
+        <test-method is-config="true" signature="refreshAfterEachTest()[pri:0, instance:CommonRunner.PaymentProcessTest@3561c410]" started-at="2024-07-10T21:56:51 IST" name="refreshAfterEachTest" finished-at="2024-07-10T21:56:57 IST" duration-ms="5209" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshAfterEachTest -->
+      </class> <!-- CommonRunner.PaymentProcessTest -->
+      <class name="CommonRunner.RoundTripBookingTest">
+        <test-method signature="negativeRoundTripBookingScenario()[pri:11, instance:CommonRunner.RoundTripBookingTest@7ceb3185]" started-at="2024-07-10T21:54:29 IST" name="negativeRoundTripBookingScenario" finished-at="2024-07-10T21:54:31 IST" duration-ms="1750" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\negativeRoundTripBookingScenario.png width = 200px height=200px />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negativeRoundTripBookingScenario -->
+        <test-method is-config="true" signature="refreshAfterEachTest()[pri:0, instance:CommonRunner.RoundTripBookingTest@7ceb3185]" started-at="2024-07-10T21:54:31 IST" name="refreshAfterEachTest" finished-at="2024-07-10T21:54:38 IST" duration-ms="7256" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshAfterEachTest -->
+        <test-method signature="positiveRoundTripBookingScenario()[pri:12, instance:CommonRunner.RoundTripBookingTest@7ceb3185]" started-at="2024-07-10T21:54:38 IST" name="positiveRoundTripBookingScenario" finished-at="2024-07-10T21:55:20 IST" duration-ms="41884" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\positiveRoundTripBookingScenario.png width = 200px height=200px />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- positiveRoundTripBookingScenario -->
+        <test-method is-config="true" signature="refreshAfterEachTest()[pri:0, instance:CommonRunner.RoundTripBookingTest@7ceb3185]" started-at="2024-07-10T21:55:21 IST" name="refreshAfterEachTest" finished-at="2024-07-10T21:55:27 IST" duration-ms="6357" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshAfterEachTest -->
+      </class> <!-- CommonRunner.RoundTripBookingTest -->
+      <class name="CommonRunner.ValidateProcessTest">
+        <test-method signature="validateBookingPage()[pri:13, instance:CommonRunner.ValidateProcessTest@436c81a3]" started-at="2024-07-10T21:55:27 IST" name="validateBookingPage" finished-at="2024-07-10T21:55:28 IST" duration-ms="1102" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\validateBookingPage.png width = 200px height=200px />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- validateBookingPage -->
+        <test-method is-config="true" signature="refreshAfterEachTest()[pri:0, instance:CommonRunner.ValidateProcessTest@436c81a3]" started-at="2024-07-10T21:55:29 IST" name="refreshAfterEachTest" finished-at="2024-07-10T21:55:40 IST" duration-ms="11861" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshAfterEachTest -->
+      </class> <!-- CommonRunner.ValidateProcessTest -->
+      <class name="CommonRunner.OneWayBookingTest">
+        <test-method signature="negativeOneWayBookingScenario()[pri:9, instance:CommonRunner.OneWayBookingTest@6e005dc9]" started-at="2024-07-10T21:53:14 IST" name="negativeOneWayBookingScenario" finished-at="2024-07-10T21:53:28 IST" duration-ms="13582" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\negativeOneWayBookingScenario.png width = 200px height=200px />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- negativeOneWayBookingScenario -->
+        <test-method is-config="true" signature="refreshAfterEachTest()[pri:0, instance:CommonRunner.OneWayBookingTest@6e005dc9]" started-at="2024-07-10T21:53:28 IST" name="refreshAfterEachTest" finished-at="2024-07-10T21:53:33 IST" duration-ms="5192" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshAfterEachTest -->
+        <test-method signature="positiveOneWayBookingScenario()[pri:10, instance:CommonRunner.OneWayBookingTest@6e005dc9]" started-at="2024-07-10T21:53:33 IST" name="positiveOneWayBookingScenario" finished-at="2024-07-10T21:54:23 IST" duration-ms="50059" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\positiveOneWayBookingScenario.png width = 200px height=200px />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- positiveOneWayBookingScenario -->
+        <test-method is-config="true" signature="refreshAfterEachTest()[pri:0, instance:CommonRunner.OneWayBookingTest@6e005dc9]" started-at="2024-07-10T21:54:23 IST" name="refreshAfterEachTest" finished-at="2024-07-10T21:54:29 IST" duration-ms="5524" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshAfterEachTest -->
+      </class> <!-- CommonRunner.OneWayBookingTest -->
+      <class name="CommonRunner.LoginTest">
+        <test-method signature="positiveLoginScenario()[pri:5, instance:CommonRunner.LoginTest@3148f668]" started-at="2024-07-10T21:52:36 IST" name="positiveLoginScenario" finished-at="2024-07-10T21:52:38 IST" duration-ms="1988" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\positiveLoginScenario.png width = 200px height=200px />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- positiveLoginScenario -->
+        <test-method is-config="true" signature="refreshAfterEachTest()[pri:0, instance:CommonRunner.LoginTest@3148f668]" started-at="2024-07-10T21:52:39 IST" name="refreshAfterEachTest" finished-at="2024-07-10T21:52:45 IST" duration-ms="6341" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshAfterEachTest -->
+        <test-method signature="invalidEmailLoginScenario()[pri:6, instance:CommonRunner.LoginTest@3148f668]" started-at="2024-07-10T21:52:45 IST" name="invalidEmailLoginScenario" finished-at="2024-07-10T21:52:47 IST" duration-ms="1788" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\invalidEmailLoginScenario.png width = 200px height=200px />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidEmailLoginScenario -->
+        <test-method is-config="true" signature="refreshAfterEachTest()[pri:0, instance:CommonRunner.LoginTest@3148f668]" started-at="2024-07-10T21:52:47 IST" name="refreshAfterEachTest" finished-at="2024-07-10T21:52:52 IST" duration-ms="4494" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshAfterEachTest -->
+        <test-method signature="invalidPasswordLoginScenario()[pri:7, instance:CommonRunner.LoginTest@3148f668]" started-at="2024-07-10T21:52:52 IST" name="invalidPasswordLoginScenario" finished-at="2024-07-10T21:52:54 IST" duration-ms="1767" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\invalidPasswordLoginScenario.png width = 200px height=200px />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- invalidPasswordLoginScenario -->
+        <test-method is-config="true" signature="refreshAfterEachTest()[pri:0, instance:CommonRunner.LoginTest@3148f668]" started-at="2024-07-10T21:52:54 IST" name="refreshAfterEachTest" finished-at="2024-07-10T21:52:59 IST" duration-ms="4885" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshAfterEachTest -->
+        <test-method signature="emptyFieldsLoginScenario()[pri:8, instance:CommonRunner.LoginTest@3148f668]" started-at="2024-07-10T21:52:59 IST" name="emptyFieldsLoginScenario" finished-at="2024-07-10T21:53:00 IST" duration-ms="1445" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\emptyFieldsLoginScenario.png width = 200px height=200px />]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- emptyFieldsLoginScenario -->
+        <test-method is-config="true" signature="refreshAfterEachTest()[pri:0, instance:CommonRunner.LoginTest@3148f668]" started-at="2024-07-10T21:53:01 IST" name="refreshAfterEachTest" finished-at="2024-07-10T21:53:14 IST" duration-ms="13122" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- refreshAfterEachTest -->
+      </class> <!-- CommonRunner.LoginTest -->
+    </test> <!-- Chrome Test -->
+  </suite> <!-- SpiceJet Test -->
+</testng-results>

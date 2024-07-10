@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="SpiceJet Test">
+	<listeners>
+		<listener class-name="Listerners.MyListener" />
+	</listeners>
+	<test name="Chrome Test">
+		<parameter name="browser" value="Chrome"/>
+		<parameter name="url" value="https://www.spicejet.com/"/>
+    	<classes>
+      		<class name="CommonRunner.SignupTest"/>
+      		<class name="CommonRunner.LoginTest"/>
+      		<class name="CommonRunner.OneWayBookingTest"/>
+      		<class name="CommonRunner.RoundTripBookingTest"/>
+      		<class name="CommonRunner.ValidateProcessTest"/>
+      		<class name="CommonRunner.PaymentProcessTest"/>
+      		
+    	</classes>
+  	</test> <!-- Test -->
+</suite> <!-- Suite -->

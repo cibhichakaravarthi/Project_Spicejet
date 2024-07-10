@@ -1,0 +1,248 @@
+<html>
+<head>
+<title>TestNG:  Chrome Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Chrome Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>14/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Wed Jul 10 21:51:13 IST 2024</td>
+</tr>
+<tr><td>Total time:</td><td>344 seconds (344668 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td></td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td><b>Attribute(s)</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='CommonRunner.OneWayBookingTest.positiveOneWayBookingScenario()'><b>positiveOneWayBookingScenario</b><br>Test class: CommonRunner.OneWayBookingTest<br/>
+<a href="#Output-573414735" onClick='toggleBox("Output-573414735", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-573414735" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-573414735">
+<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\positiveOneWayBookingScenario.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>50</td>
+<td>CommonRunner.OneWayBookingTest@6e005dc9</td></tr>
+<tr>
+<td title='CommonRunner.LoginTest.invalidEmailLoginScenario()'><b>invalidEmailLoginScenario</b><br>Test class: CommonRunner.LoginTest<br/>
+<a href="#Output-2107760645" onClick='toggleBox("Output-2107760645", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-2107760645" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-2107760645">
+<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\invalidEmailLoginScenario.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>CommonRunner.LoginTest@3148f668</td></tr>
+<tr>
+<td title='CommonRunner.RoundTripBookingTest.negativeRoundTripBookingScenario()'><b>negativeRoundTripBookingScenario</b><br>Test class: CommonRunner.RoundTripBookingTest<br/>
+<a href="#Output-859456754" onClick='toggleBox("Output-859456754", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-859456754" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-859456754">
+<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\negativeRoundTripBookingScenario.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>CommonRunner.RoundTripBookingTest@7ceb3185</td></tr>
+<tr>
+<td title='CommonRunner.PaymentProcessTest.testPaymentProcess()'><b>testPaymentProcess</b><br>Test class: CommonRunner.PaymentProcessTest<br/>
+<a href="#Output-548010753" onClick='toggleBox("Output-548010753", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-548010753" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-548010753">
+<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\testPaymentProcess.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>70</td>
+<td>CommonRunner.PaymentProcessTest@3561c410</td></tr>
+<tr>
+<td title='CommonRunner.SignupTest.mismatchedPasswordSignupScenario()'><b>mismatchedPasswordSignupScenario</b><br>Test class: CommonRunner.SignupTest<br/>
+<a href="#Output-1947201478" onClick='toggleBox("Output-1947201478", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1947201478" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1947201478">
+<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\mismatchedPasswordSignupScenario.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>7</td>
+<td>CommonRunner.SignupTest@488d1cd7</td></tr>
+<tr>
+<td title='CommonRunner.RoundTripBookingTest.positiveRoundTripBookingScenario()'><b>positiveRoundTripBookingScenario</b><br>Test class: CommonRunner.RoundTripBookingTest<br/>
+<a href="#Output-752202140" onClick='toggleBox("Output-752202140", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-752202140" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-752202140">
+<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\positiveRoundTripBookingScenario.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>41</td>
+<td>CommonRunner.RoundTripBookingTest@7ceb3185</td></tr>
+<tr>
+<td title='CommonRunner.LoginTest.emptyFieldsLoginScenario()'><b>emptyFieldsLoginScenario</b><br>Test class: CommonRunner.LoginTest<br/>
+<a href="#Output-1808679232" onClick='toggleBox("Output-1808679232", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1808679232" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1808679232">
+<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\emptyFieldsLoginScenario.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>CommonRunner.LoginTest@3148f668</td></tr>
+<tr>
+<td title='CommonRunner.OneWayBookingTest.negativeOneWayBookingScenario()'><b>negativeOneWayBookingScenario</b><br>Test class: CommonRunner.OneWayBookingTest<br/>
+<a href="#Output-1389865849" onClick='toggleBox("Output-1389865849", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1389865849" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1389865849">
+<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\negativeOneWayBookingScenario.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>13</td>
+<td>CommonRunner.OneWayBookingTest@6e005dc9</td></tr>
+<tr>
+<td title='CommonRunner.LoginTest.positiveLoginScenario()'><b>positiveLoginScenario</b><br>Test class: CommonRunner.LoginTest<br/>
+<a href="#Output-1088381072" onClick='toggleBox("Output-1088381072", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1088381072" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1088381072">
+<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\positiveLoginScenario.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>CommonRunner.LoginTest@3148f668</td></tr>
+<tr>
+<td title='CommonRunner.ValidateProcessTest.validateBookingPage()'><b>validateBookingPage</b><br>Test class: CommonRunner.ValidateProcessTest<br/>
+<a href="#Output-1713836982" onClick='toggleBox("Output-1713836982", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1713836982" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1713836982">
+<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\validateBookingPage.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>CommonRunner.ValidateProcessTest@436c81a3</td></tr>
+<tr>
+<td title='CommonRunner.SignupTest.invalidEmailSignupScenario()'><b>invalidEmailSignupScenario</b><br>Test class: CommonRunner.SignupTest<br/>
+<a href="#Output-1933493643" onClick='toggleBox("Output-1933493643", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-1933493643" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-1933493643">
+<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\invalidEmailSignupScenario.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>6</td>
+<td>CommonRunner.SignupTest@488d1cd7</td></tr>
+<tr>
+<td title='CommonRunner.LoginTest.invalidPasswordLoginScenario()'><b>invalidPasswordLoginScenario</b><br>Test class: CommonRunner.LoginTest<br/>
+<a href="#Output-888648783" onClick='toggleBox("Output-888648783", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-888648783" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-888648783">
+<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\invalidPasswordLoginScenario.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>1</td>
+<td>CommonRunner.LoginTest@3148f668</td></tr>
+<tr>
+<td title='CommonRunner.SignupTest.emptyFieldsSignupScenario()'><b>emptyFieldsSignupScenario</b><br>Test class: CommonRunner.SignupTest<br/>
+<a href="#Output-204273047" onClick='toggleBox("Output-204273047", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-204273047" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-204273047">
+<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\emptyFieldsSignupScenario.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>5</td>
+<td>CommonRunner.SignupTest@488d1cd7</td></tr>
+<tr>
+<td title='CommonRunner.SignupTest.positiveSignupScenario()'><b>positiveSignupScenario</b><br>Test class: CommonRunner.SignupTest<br/>
+<a href="#Output-121113063" onClick='toggleBox("Output-121113063", this, "Show output", "Hide output");'>Show output</a>
+
+<a href="#Output-121113063" onClick="toggleAllBoxes();">Show all outputs</a>
+<div class='log' id="Output-121113063">
+<img src= C:\Users\cibhi\eclipse-workspace\Project_SpiceJet\screenshots\positiveSignupScenario.png width = 200px height=200px /><br/>
+</div>
+</td>
+<td></td>
+<td>17</td>
+<td>CommonRunner.SignupTest@488d1cd7</td></tr>
+</table><p>
+</body>
+</html>

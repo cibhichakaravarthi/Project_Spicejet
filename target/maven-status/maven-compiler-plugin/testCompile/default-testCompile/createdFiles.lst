@@ -1,0 +1,6 @@
+CommonRunner\LoginTest.class
+CommonRunner\PaymentProcessTest.class
+CommonRunner\SignupTest.class
+CommonRunner\OneWayBookingTest.class
+CommonRunner\RoundTripBookingTest.class
+CommonRunner\ValidateProcessTest.class
